@@ -1,8 +1,12 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
 @theme {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+
+  --font-display: "Manrope", "Manrope Fallback";
+  --font-body: "Geist", "Geist Fallback";
+  --font-mono: "JetBrains Mono", "JetBrains Mono Fallback";
 }
 
 /*
