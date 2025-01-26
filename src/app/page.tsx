@@ -1,9 +1,9 @@
 import { NextPage } from "next";
 
-const Home: NextPage = () => {
+const AboutPage: NextPage = () => {
   return (
-    <div className="flex flex-col">
-      <h1 className="font-display text-3xl font-bold">Rory McMeekin</h1>
+    <div className="size-full flex flex-col">
+      <h1 className="font-display text-2xl font-bold">Rory McMeekin</h1>
       <h2 className="font-body">
         Design engineer exploring life, the internet, and everything.
       </h2>
@@ -12,4 +12,4 @@ const Home: NextPage = () => {
   );
 };
 
-export default Home;
+export default AboutPage;
