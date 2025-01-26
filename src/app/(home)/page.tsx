@@ -11,7 +11,7 @@ const AboutPage: NextPage = () => {
           alt="Abstract lights. Shot on iPhone."
           priority
         />
-        <figcaption className="text-right italic text-sm">
+        <figcaption className="text-right italic text-sm pt-1 text-gray-600">
           &quot;Abstract lights&quot;
         </figcaption>
       </figure>
