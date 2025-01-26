@@ -18,8 +18,8 @@ const NavLink: FunctionComponent<NavLinkProps> = ({
   <li>
     <Link
       className={cx(
-        isActive ? "text-gray-900" : "text-gray-700",
-        "font-medium"
+        isActive ? "text-gray-900" : "text-gray-400",
+        "font-display font-semibold"
       )}
       href={path}
     >
@@ -38,8 +38,14 @@ export const NavBar = () => {
   ];
 
   return (
-    <nav className="flex lg:flex-col items-start">
-      <h2>rorz.io</h2>
+    <nav className="flex lg:flex-col items-end gap-y-8">
+      <Link href="/">
+        <div className="flex items-center justify-center rounded-md">
+          <h2 className="text-lg tracking-widest font-light text-gray-600">
+            rorz.
+          </h2>
+        </div>
+      </Link>
       <ul className="lg:mt-auto ml-auto items-end flex lg:flex-col gap-2 lg:w-full">
         {links.map(([label, path]) => (
           <NavLink
