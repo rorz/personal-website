@@ -13,13 +13,21 @@ const WorkPage: NextPage = () => {
         <h2 className="font-display text-lg font-bold">Music</h2>
         <p>
           Creating music has been a formative experience for me, and continues
-          to be the primary way I express myself. I used to{" "}
+          to be the primary way I express myself. I play piano; Logic Pro is my
+          preferred{" "}
+          <a
+            href="https://en.wikipedia.org/wiki/Digital_audio_workstation"
+            target="_blank"
+          >
+            DAW.
+          </a>{" "}
+          For the past decade I{" "}
           <a
             href="https://soundcloud.com/4-loop"
             className="underline"
             target="_blank"
           >
-            post my tracks to SoundCloud,
+            posted select creations on SoundCloud,
           </a>{" "}
           but have since moved to Bandcamp.
         </p>
