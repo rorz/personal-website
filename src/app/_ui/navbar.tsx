@@ -40,8 +40,8 @@ export const NavBar = () => {
   return (
     <nav className="flex lg:flex-col items-end gap-y-8">
       <Link href="/">
-        <div className="flex items-center justify-center rounded-md">
-          <h2 className="text-lg tracking-widest font-light text-gray-600">
+        <div className="flex items-center justify-center">
+          <h2 className="text-xl tracking-widest font-light text-gray-800">
             rorz.
           </h2>
         </div>

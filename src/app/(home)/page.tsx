@@ -15,7 +15,7 @@ const AboutPage: NextPage = () => {
           &quot;Abstract lights&quot;
         </figcaption>
       </figure>
-      <h1 className="font-display text-2xl font-medium pb-2 pt-6">
+      <h1 className="font-display text-2xl font-black pb-2 pt-6">
         Rory McMeekin
       </h1>
       <p>
