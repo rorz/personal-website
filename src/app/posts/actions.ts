@@ -3,9 +3,12 @@ import path from "node:path";
 import z from "zod";
 import { format } from "date-fns";
 
-const POSTS_REL_DIRPATH = "../../../public/posts";
+const POSTS_REL_DIRPATH = "../_content/posts";
 
-const POSTS_ABS_DIRPATH = path.resolve(process.cwd(), "./public/posts");
+const POSTS_ABS_DIRPATH = path.resolve(
+  process.cwd(),
+  "./src/app/_content/posts"
+);
 
 export const loadPost = async (slug: string) => {
   const post = await import(`${POSTS_REL_DIRPATH}/${slug}.mdx`);
