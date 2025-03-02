@@ -46,7 +46,7 @@ export default function RootLayout({
             <div className="col-span-10 lg:col-span-6 size-full min-h-[50vh]">
               {children}
             </div>
-            <div className="w-full col text-sm text-gray-600 flex gap-x-2 lg:col-span-6 col-span-10 lg:col-start-3 items-baseline mt-8 pt-4 border-t border-gray-200">
+            <div className="w-full col text-sm text-gray-600 flex gap-x-2 lg:col-span-6 col-span-10 lg:col-start-3 items-baseline mt-8 pt-4 pb-20 border-t border-gray-200">
               <span className="mr-auto">
                 © {new Date().getFullYear()} Rory McMeekin
               </span>
