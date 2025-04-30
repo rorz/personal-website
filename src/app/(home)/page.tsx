@@ -11,16 +11,16 @@ const AboutPage: NextPage = () => {
           alt="Abstract lights. Shot on iPhone."
           priority
         />
-        <figcaption className="text-right italic text-sm pt-1 text-gray-600">
-          &quot;Abstract lights&quot;
+        <figcaption className="text-right text-sm pt-1 text-gray-600">
+          Abstract lights
         </figcaption>
       </figure>
-      <h1 className="font-display text-2xl font-black pb-2 pt-6">
+      <h1 className="font-display text-2xl font-bold pb-2 pt-6">
         Rory McMeekin
       </h1>
       <p>
-        Welcome! I&apos;m a design engineer exploring life, the internet, and
-        everything. I co-founded and work at{" "}
+        Design engineer exploring life, the internet, and everything. I
+        co-founded and work at{" "}
         <a href="//verdn.com" target="_blank" className="underline">
           Verdn,
         </a>{" "}

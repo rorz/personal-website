@@ -33,7 +33,7 @@ export const NavBar = () => {
 
   const links: [label: string, path: string][] = [
     ["about", "/"],
-    ["posts", "/posts"],
+    // ["posts", "/posts"],
     ["work", "/work"],
   ];
 

@@ -53,6 +53,9 @@ export default function RootLayout({
               <a href="//github.com/rorz" target="_blank">
                 <span>GitHub</span>
               </a>
+              <a href="//instagram.com/rorz_io" target="_blank">
+                <span>Instagram</span>
+              </a>
               <a href="//linkedin.com/in/rorz" target="_blank">
                 <span>LinkedIn</span>
               </a>
