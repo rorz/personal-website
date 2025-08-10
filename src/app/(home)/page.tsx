@@ -21,19 +21,17 @@ const AboutPage: NextPage = () => {
       <p>
         Design engineer exploring life, the internet, and everything. I
         co-founded and work at{" "}
-        <a href="//verdn.com" target="_blank" className="underline">
-          Verdn,
-        </a>{" "}
-        which went through{" "}
+        <a href="//kenobi.ai" target="_blank" className="underline">
+          Kenobi.ai
+        </a>{" "} (formerly Verdn), which is backed by 
+        {" "}
         <a
-          href="//ycombinator.com/companies/verdn"
+          href="//ycombinator.com/companies/kenobi"
           target="_blank"
           className="underline"
         >
-          Y Combinator
-        </a>{" "}
-        in 2022. I lived in London for 12 years before deciding to leave
-        indefinitely.
+          Y Combinator.
+        </a>{" "}I lived in London for 12 years before taking a break from the city to work remotely across the world, which I have now returned from.
       </p>
       <p>
         I am most interested in the intersection between computers and art, and
