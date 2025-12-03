@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { cx } from "class-variance-authority";
+import Script from "next/script";
 import { Manrope, Geist, JetBrains_Mono } from "next/font/google";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/next";
@@ -30,6 +31,20 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <Script
+          src="https://cdn.jsdelivr.net/npm/kenobi-js/browser/dist.min.js"
+          strategy="beforeInteractive"
+        />
+        <Script id="kenobi-init" strategy="beforeInteractive">
+          {`
+            window.kenobi = new KenobiLib.Kenobi({
+              publicKey: "pk_live_1Ou-dwWHduFNzM1HaPODgv5_LXoOuEaG",
+              debug: false,
+            });
+          `}
+        </Script>
+      </head>
       <body
         className={cx(
           manrope.className,
