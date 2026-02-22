@@ -129,12 +129,12 @@ const WorkPage: NextPage = () => {
       <Section title="Film">
         <Figure caption="nara (2025)">
           <video controls>
-            <source src="/film/nara.m4v" />
+            <source src="/film/nara.mp4" />
           </video>
         </Figure>
         <Figure caption="hiroshima (2025)">
           <video controls>
-            <source src="/film/hiroshima.m4v" />
+            <source src="/film/hiroshima.mp4" />
           </video>
         </Figure>
       </Section>
