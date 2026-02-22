@@ -73,11 +73,6 @@ const WorkPage: NextPage = () => {
   return (
     <div className="size-full flex flex-col gap-y-6">
       <h1 className="font-display text-2xl font-bold pb-2">Work</h1>
-
-      {/* <div className="flex flex-col gap-y-3">
-        <h2 className="font-display text-xl font-light">Code</h2>
-        <p className="italics">Coming soon...</p>
-      </div> */}
       <Section title="Music">
         <p>
           Creating music has been a formative experience for me, and continues
@@ -105,6 +100,9 @@ const WorkPage: NextPage = () => {
         <Figure caption="I wrote this track at the end of summer 2023.">
           <BandcampWidget trackId={1287360924} />
         </Figure>
+      </Section>
+      <Section title="Web">
+        <p>What's up</p>
       </Section>
       <Section title="Artwork">
         <PhotoSection
@@ -140,9 +138,7 @@ const WorkPage: NextPage = () => {
           </video>
         </Figure>
       </Section>
-      <Section title="Web">
-        <p>What's up</p>
-      </Section>
+
       <Section title="Photography">
         <PhotoSection
           title="Japan (2025, ongoing)"

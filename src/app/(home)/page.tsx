@@ -1,18 +1,19 @@
 import { NextPage } from "next";
 import Image from "next/image";
-import heroImage from "./home.png";
+import barbicanImg from "./barbican.webp"
 
 const AboutPage: NextPage = () => {
   return (
     <div className="size-full flex flex-col gap-y-4">
       <figure>
         <Image
-          src={heroImage}
-          alt="Abstract lights. Shot on iPhone."
+          src={barbicanImg}
+          alt="An image of an elevated walkway in the Barbican complex, which has been heavily modified with glitch effects so that the figures in the distance and deatils of the buildings are hard to make out."
           priority
+          className="aspect-square object-cover object-center border border-2 border-black"
         />
         <figcaption className="text-right text-sm pt-1 text-gray-600">
-          Abstract lights
+          A Barbican bridge
         </figcaption>
       </figure>
       <h1 className="font-display text-2xl font-bold pb-2 pt-6">
