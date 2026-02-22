@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { cx } from "class-variance-authority";
 import { Manrope, Geist, JetBrains_Mono } from "next/font/google";
+import { GeistPixelLine, GeistPixelSquare, GeistPixelGrid } from "geist/font/pixel";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
@@ -38,6 +39,9 @@ export default function RootLayout({
           manrope.className,
           geist.className,
           jetBrainsMono.className,
+          GeistPixelGrid.variable,
+          GeistPixelLine.variable,
+          GeistPixelSquare.variable,
           "antialiased"
         )}
       >

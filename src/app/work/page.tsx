@@ -28,7 +28,7 @@ interface SectionProps {
 const Section: FunctionComponent<SectionProps> = ({ children, title }) => {
   return (
     <div className="flex flex-col gap-y-3">
-      <h2 className="font-display text-xl font-light">{title}</h2>
+      <h2 className="font-pixel-square text-xl font-light">{title}</h2>
       {children}
     </div>
   );
@@ -49,7 +49,7 @@ const PhotoSection: FunctionComponent<PhotoSectionProps> = ({
 }) => {
   return (
     <div className="flex flex-col gap-y-3">
-      <h3 className="font-display text-lg font-bold">{title}</h3>
+      <h3 className="font-pixel-square text-lg font-bold">{title}</h3>
       <div className="flex flex-col gap-y-2">
         {photos.map((photo) => (
           <Figure key={photo.url} caption={photo.title}>
@@ -72,7 +72,7 @@ const PhotoSection: FunctionComponent<PhotoSectionProps> = ({
 const WorkPage: NextPage = () => {
   return (
     <div className="size-full flex flex-col gap-y-6">
-      <h1 className="font-display text-2xl font-bold pb-2">Work</h1>
+      <h1 className="font-pixel-square text-2xl font-bold pb-2">Work</h1>
       <div className="flex flex-col gap-y-6 lg:gap-6 lg:grid grid-cols-2">
         <Section title="Music">
           <p>

@@ -18,7 +18,7 @@ const AboutPage: NextPage = () => {
       </figure>
       <div className="flex flex-col gap-2">
         <Image src="/me.png" alt="My profile picture, taken from the side -- some glitch effects applied" priority className="size-24 border-2 border-zinc-900 object-cover object-center" width={200} height={200} />
-        <h1 className="font-display text-2xl font-bold col-start-2 mb-4">
+        <h1 className="font-pixel-line text-3xl col-start-2 mb-4 text-black">
           Rory McMeekin
         </h1>
         <p className="col-start-2">

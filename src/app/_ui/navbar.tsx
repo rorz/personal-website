@@ -19,7 +19,7 @@ const NavLink: FunctionComponent<NavLinkProps> = ({
     <Link
       className={cx(
         isActive ? "text-gray-900" : "text-gray-400",
-        "font-display font-semibold"
+        "font-pixel-square font-semibold"
       )}
       href={path}
     >
@@ -41,7 +41,7 @@ export const NavBar = () => {
     <nav className="flex lg:flex-col items-end gap-y-8">
       <Link href="/">
         <div className="flex items-center justify-center">
-          <h2 className="text-xl tracking-widest font-bold font-mono text-gray-800">
+          <h2 className="text-3xl tracking-widest font-pixel-line text-gray-800">
             rorz
           </h2>
         </div>
