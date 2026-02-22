@@ -10,14 +10,14 @@ const AboutPage: NextPage = () => {
           src={barbicanImg}
           alt="An image of an elevated walkway in the Barbican complex, which has been heavily modified with glitch effects so that the figures in the distance and deatils of the buildings are hard to make out."
           priority
-          className="aspect-square object-cover object-center border border-2 border-black"
+          className="aspect-square object-cover object-center border-2 border-black"
         />
         <figcaption className="text-right text-sm pt-1 text-gray-600">
           A Barbican bridge
         </figcaption>
       </figure>
       <div className="flex flex-col gap-2">
-        <Image src="/me.png" alt="My profile picture, taken from the side -- some glitch effects applied" priority className="size-24 rounded-full border border-zinc-900 object-contain object-center" width={200} height={200} />
+        <Image src="/me.png" alt="My profile picture, taken from the side -- some glitch effects applied" priority className="size-24 border-2 border-zinc-900 object-cover object-center" width={200} height={200} />
         <h1 className="font-display text-2xl font-bold col-start-2 mb-4">
           Rory McMeekin
         </h1>
