@@ -99,6 +99,9 @@ const WorkPage: NextPage = () => {
           </a>{" "}
           but have since moved to Bandcamp.
         </p>
+        <Figure caption="This track is a combination of ElevenLabs music generation and the Paulstretch algorithm">
+          <BandcampWidget trackId={1333294678} />
+        </Figure>
         <Figure caption="I wrote this track at the end of summer 2023.">
           <BandcampWidget trackId={1287360924} />
         </Figure>
@@ -128,14 +131,17 @@ const WorkPage: NextPage = () => {
       <Section title="Film">
         <Figure caption="nara (2025)">
           <video controls>
-            <source src="//w46tvb33igcmbmxx.public.blob.vercel-storage.com/film/nara.m4v" />
+            <source src="/film/nara.m4v" />
           </video>
         </Figure>
         <Figure caption="hiroshima (2025)">
           <video controls>
-            <source src="//w46tvb33igcmbmxx.public.blob.vercel-storage.com/film/hiroshima.m4v" />
+            <source src="/film/hiroshima.m4v" />
           </video>
         </Figure>
+      </Section>
+      <Section title="Web">
+        <p>What's up</p>
       </Section>
       <Section title="Photography">
         <PhotoSection

@@ -23,7 +23,7 @@ const AboutPage: NextPage = () => {
         co-founded and work at{" "}
         <a href="//kenobi.ai" target="_blank" className="underline">
           Kenobi.ai
-        </a>{" "} (formerly Verdn), which is backed by 
+        </a>{" "} (formerly Verdn), which is backed by
         {" "}
         <a
           href="//ycombinator.com/companies/kenobi"
@@ -31,7 +31,7 @@ const AboutPage: NextPage = () => {
           className="underline"
         >
           Y Combinator.
-        </a>{" "}I lived in London for 12 years before taking a break from the city to work remotely across the world, which I have now returned from.
+        </a>{" "}I have lived in London for almost 15 years, taking various breaks from the city to travel and work remotely.
       </p>
       <p>
         I am most interested in the intersection between computers and art, and
