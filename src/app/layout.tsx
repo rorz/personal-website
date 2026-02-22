@@ -42,11 +42,11 @@ export default function RootLayout({
         )}
       >
         <div className="w-full font-body text-gray-950 lg:pt-20 lg:p-0 p-4">
-          <div className="grid grid-cols-10 gap-x-10 gap-y-4 max-w-[1000px] w-full">
+          <div className="grid grid-cols-10 gap-x-10 gap-y-4 max-w-[1800px] w-full">
             <div className="flex flex-col col-span-10 lg:col-span-2 size-full">
               <NavBar />
             </div>
-            <div className="col-span-10 lg:col-span-6 size-full min-h-[50vh]">
+            <div className="col-span-10 lg:col-span-6 size-full min-h-[70vh]">
               {children}
             </div>
             <div className="w-full col text-sm text-gray-600 flex gap-x-2 lg:col-span-6 col-span-10 lg:col-start-3 items-baseline mt-8 pt-4 pb-20 border-t border-gray-200">
