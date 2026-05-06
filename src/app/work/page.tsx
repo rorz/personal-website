@@ -95,6 +95,9 @@ const WorkPage: NextPage = () => {
             </a>{" "}
             but have since moved to Bandcamp.
           </p>
+          <Figure caption="Continues on the theme of the album by using the Paulstretch algorithm">
+            <BandcampWidget trackId={2583219155} />
+          </Figure>
           <Figure caption="This track is a combination of ElevenLabs music generation and the Paulstretch algorithm">
             <BandcampWidget trackId={1333294678} />
           </Figure>
@@ -103,6 +106,9 @@ const WorkPage: NextPage = () => {
           </Figure>
         </Section>
         <Section title="Web">
+          <Figure caption="Automated PDF image replacement for branded demos">
+            <a href="https://kenobi.ai/brandersnatch" className="size-full py-2 bg-zinc-50 flex items-center justify-center text-zinc-700 underline border-2 border-zinc-300 hover:bg-zinc-200 transition-all" target="_blank">brandersnatch</a>
+          </Figure>
           <Figure caption="AI-generated art exhibition">
             <a href="//whatwesee.space" className="size-full py-2 bg-zinc-50 flex items-center justify-center text-zinc-700 underline border-2 border-zinc-300 hover:bg-zinc-200 transition-all" target="_blank">whatwesee.space</a>
           </Figure>
